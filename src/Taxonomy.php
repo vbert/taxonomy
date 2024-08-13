@@ -5,7 +5,7 @@
  * File Created: 2024-08-12, 15:18:40
  * Author: Wojciech Sobczak (wsobczak@gmail.com)
  * -----
- * Last Modified: 2024-08-12, 23:08:55
+ * Last Modified: 2024-08-13, 8:54:40
  * Modified By: Wojciech Sobczak (wsobczak@gmail.com)
  * -----
  * Copyright © 2021 - 2024 by vbert
@@ -25,6 +25,6 @@ class Taxonomy {
     }
 
     public function run() {
-        echo strtolower($this->slugger->slug('Żółte liście świecą od słońca!'));
+        echo strtolower($this->slugger->slug('Żółte\ liście /świecą @#% od zachodząceGo słońca!'));
     }
 }
